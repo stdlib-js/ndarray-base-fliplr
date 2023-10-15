@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/ndarray-base-fliplr",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Return a view of an input ndarray in which the order of elements along the last dimension is reversed.",
   "license": "Apache-2.0",
   "author": {
@@ -38,7 +38,7 @@
   },
   "dependencies": {
     "@stdlib/ndarray-base-ndims": "^0.1.0",
-    "@stdlib/ndarray-base-reverse-dimension": "github:stdlib-js/ndarray-base-reverse-dimension#main",
+    "@stdlib/ndarray-base-reverse-dimension": "^0.1.0",
     "@stdlib/ndarray-base-slice": "^0.1.0",
     "@stdlib/slice-multi": "^0.1.0",
     "@stdlib/types": "^0.1.0"
