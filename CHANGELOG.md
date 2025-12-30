@@ -2,6 +2,40 @@
 
 > Package changelog.
 
+<section class="release" id="unreleased">
+
+## Unreleased (2025-12-30)
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`dcc971a`](https://github.com/stdlib-js/stdlib/commit/dcc971a838258413c22944447da8c6cd1c2a63f3) - **docs:** update examples and use accessor functions _(by Athan Reines)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Athan Reines
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.2.2">
 
 ## 0.2.2 (2024-07-29)

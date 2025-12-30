@@ -79,6 +79,7 @@ Returns a view of an input ndarray in which the order of elements along the last
 
 ```javascript
 var ndarray = require( '@stdlib/ndarray-ctor' );
+var getShape = require( '@stdlib/ndarray-shape' );
 var ndarray2array = require( '@stdlib/ndarray-to-array' );
 
 var buffer = [ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0 ];
@@ -87,22 +88,16 @@ var strides = [ 2, 1 ];
 var offset = 0;
 
 var x = ndarray( 'generic', buffer, shape, strides, offset, 'row-major' );
-// returns <ndarray>
+// returns <ndarray>[ [ 1.0, 2.0 ], [ 3.0, 4.0 ], [ 5.0, 6.0 ] ]
 
-var sh = x.shape;
+var sh = getShape( x );
 // returns [ 3, 2 ]
-
-var arr = ndarray2array( x );
-// returns [ [ 1.0, 2.0 ], [ 3.0, 4.0 ], [ 5.0, 6.0 ] ]
 
 var y = fliplr( x, false );
-// returns <ndarray>
+// returns <ndarray>[ [ 2.0, 1.0 ], [ 4.0, 3.0 ], [ 6.0, 5.0 ] ]
 
-sh = y.shape;
+sh = getShape( y );
 // returns [ 3, 2 ]
-
-arr = ndarray2array( y );
-// returns [ [ 2.0, 1.0 ], [ 4.0, 3.0 ], [ 6.0, 5.0 ] ]
 ```
 
 The function accepts the following arguments:
@@ -203,7 +198,7 @@ See [LICENSE][stdlib-license].
 
 ## Copyright
 
-Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
+Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 </section>
 
@@ -229,8 +224,8 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 
 -->
 
-[chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
-[chat-url]: https://app.gitter.im/#/room/#stdlib-js_stdlib:gitter.im
+[chat-image]: https://img.shields.io/badge/zulip-join_chat-brightgreen.svg
+[chat-url]: https://stdlib.zulipchat.com
 
 [stdlib]: https://github.com/stdlib-js/stdlib
 
