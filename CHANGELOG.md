@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`3762b83`](https://github.com/stdlib-js/stdlib/commit/3762b83d30536b528ba17199d81f9da0b3c09cf6) - **refactor:** reduce duplication _(by Athan Reines)_
 -   [`dcc971a`](https://github.com/stdlib-js/stdlib/commit/dcc971a838258413c22944447da8c6cd1c2a63f3) - **docs:** update examples and use accessor functions _(by Athan Reines)_
 
 </details>
