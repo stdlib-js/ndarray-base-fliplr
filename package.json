@@ -38,7 +38,7 @@
   },
   "dependencies": {
     "@stdlib/ndarray-base-ndims": "^0.2.3",
-    "@stdlib/ndarray-base-reverse-dimension": "^0.2.2",
+    "@stdlib/ndarray-base-reverse-dimension": "^0.2.3",
     "@stdlib/ndarray-base-slice": "^0.2.3",
     "@stdlib/slice-multi": "^0.2.3",
     "@stdlib/types": "^0.4.3"
@@ -46,12 +46,12 @@
   "devDependencies": {
     "@stdlib/array-base-zero-to": "^0.2.2",
     "@stdlib/array-typed": "^0.3.2",
-    "@stdlib/assert-is-ndarray-like": "^0.2.2",
-    "@stdlib/ndarray-array": "^0.2.2",
+    "@stdlib/assert-is-ndarray-like": "^0.2.3",
+    "@stdlib/ndarray-array": "^0.2.3",
     "@stdlib/ndarray-base-assert-is-read-only": "^0.2.3",
     "@stdlib/ndarray-base-ctor": "^0.3.1",
     "@stdlib/ndarray-base-empty": "^0.3.2",
-    "@stdlib/ndarray-base-from-scalar": "^0.2.2",
+    "@stdlib/ndarray-base-from-scalar": "^0.2.3",
     "@stdlib/ndarray-ctor": "^0.3.1",
     "@stdlib/ndarray-data-buffer": "^0.2.3",
     "@stdlib/ndarray-dtype": "^0.2.3",
@@ -59,7 +59,7 @@
     "@stdlib/ndarray-ndims": "^0.2.3",
     "@stdlib/ndarray-numel": "^0.2.3",
     "@stdlib/ndarray-shape": "^0.2.3",
-    "@stdlib/ndarray-to-array": "^0.2.1",
+    "@stdlib/ndarray-to-array": "^0.2.2",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git",

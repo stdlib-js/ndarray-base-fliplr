@@ -80,7 +80,6 @@ Returns a view of an input ndarray in which the order of elements along the last
 ```javascript
 var ndarray = require( '@stdlib/ndarray-ctor' );
 var getShape = require( '@stdlib/ndarray-shape' );
-var ndarray2array = require( '@stdlib/ndarray-to-array' );
 
 var buffer = [ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0 ];
 var shape = [ 3, 2 ];
@@ -211,8 +210,8 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/ndarray-base-fliplr.svg
 [npm-url]: https://npmjs.org/package/@stdlib/ndarray-base-fliplr
 
-[test-image]: https://github.com/stdlib-js/ndarray-base-fliplr/actions/workflows/test.yml/badge.svg?branch=v0.2.3
-[test-url]: https://github.com/stdlib-js/ndarray-base-fliplr/actions/workflows/test.yml?query=branch:v0.2.3
+[test-image]: https://github.com/stdlib-js/ndarray-base-fliplr/actions/workflows/test.yml/badge.svg?branch=main
+[test-url]: https://github.com/stdlib-js/ndarray-base-fliplr/actions/workflows/test.yml?query=branch:main
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/ndarray-base-fliplr/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/ndarray-base-fliplr?branch=main
