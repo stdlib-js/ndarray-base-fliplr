@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-04-10)
+## Unreleased (2026-04-19)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`35634a8`](https://github.com/stdlib-js/stdlib/commit/35634a8d15e49b92e562a9c6cd8361b988c8ced2) - **bench:** refactor to use string interpolation in `@stdlib/ndarray-base` [(#11433)](https://github.com/stdlib-js/stdlib/pull/11433) _(by Karan Anand)_
 -   [`801907f`](https://github.com/stdlib-js/stdlib/commit/801907f3df34913321d0f977117114fbb1bcb618) - **style:** remove empty line _(by Athan Reines)_
 -   [`a0169bc`](https://github.com/stdlib-js/stdlib/commit/a0169bcfc0d05ac94c206ac5d6d0a898ec304463) - **docs:** remove unused `ndarray2array` requires from README usage examples [(#11194)](https://github.com/stdlib-js/stdlib/pull/11194) _(by Philipp Burckhardt)_
 
@@ -25,9 +26,10 @@
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
+-   Karan Anand
 -   Philipp Burckhardt
 
 </section>
